@@ -1,0 +1,49 @@
+DROP TABLE UsersPages
+DROP TABLE Comments
+DROP TABLE Posts
+DROP TABLE Users
+DROP TABLE Pages
+DROP TABLE Categories
+GO
+
+CREATE TABLE Categories(
+	CategoryID INT PRIMARY KEY IDENTITY(1, 1),
+	CName VARCHAR(50),
+	CDescription VARCHAR(100)
+)
+
+CREATE TABLE Pages(
+	PageID INT PRIMARY KEY IDENTITY(1, 1),
+	PName VARCHAR(50),
+	CategoryID INT REFERENCES Categories(CategoryID)
+)
+
+CREATE TABLE Users(
+	UserID INT PRIMARY KEY IDENTITY(1, 1),
+	Uname VARCHAR(50),
+	City VARCHAR(50),
+	DOB DATE
+)
+
+CREATE TABLE Posts(
+	PostID INT PRIMARY KEY IDENTITY(1, 1),
+	Ptext VARCHAR(100),
+	Pdate DATE, 
+	Shares INT,
+	UserID INT REFERENCES Users(UserID)
+)
+
+CREATE TABLE Comments(
+	CommentID INT PRIMARY KEY IDENTITY(1, 1),
+	Ctext VARCHAR(100),
+	Cdate DATE, 
+	TopComm BIT,
+	PostID INT REFERENCES Posts(PostID)
+)
+
+CREATE TABLE UsersPages(
+	UserID INT REFERENCES Users(UserID),
+	PageID INT REFERENCES Pages(PageID),
+	Ldate DATE,
+	PRIMARY KEY(UserID, PageID)
+)

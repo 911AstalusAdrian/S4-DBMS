@@ -1,0 +1,11 @@
+D:\Uni\DBMSs- Database Management Systems\Practical Exam\Solution\PracticalExamSolution\PracticalExamSolution\bin\Debug\PracticalExamSolution.exe.config
+D:\Uni\DBMSs- Database Management Systems\Practical Exam\Solution\PracticalExamSolution\PracticalExamSolution\bin\Debug\PracticalExamSolution.exe
+D:\Uni\DBMSs- Database Management Systems\Practical Exam\Solution\PracticalExamSolution\PracticalExamSolution\bin\Debug\PracticalExamSolution.pdb
+D:\Uni\DBMSs- Database Management Systems\Practical Exam\Solution\PracticalExamSolution\PracticalExamSolution\obj\Debug\PracticalExamSolution.csproj.AssemblyReference.cache
+D:\Uni\DBMSs- Database Management Systems\Practical Exam\Solution\PracticalExamSolution\PracticalExamSolution\obj\Debug\PracticalExamSolution.csproj.SuggestedBindingRedirects.cache
+D:\Uni\DBMSs- Database Management Systems\Practical Exam\Solution\PracticalExamSolution\PracticalExamSolution\obj\Debug\PracticalExamSolution.Form1.resources
+D:\Uni\DBMSs- Database Management Systems\Practical Exam\Solution\PracticalExamSolution\PracticalExamSolution\obj\Debug\PracticalExamSolution.Properties.Resources.resources
+D:\Uni\DBMSs- Database Management Systems\Practical Exam\Solution\PracticalExamSolution\PracticalExamSolution\obj\Debug\PracticalExamSolution.csproj.GenerateResource.cache
+D:\Uni\DBMSs- Database Management Systems\Practical Exam\Solution\PracticalExamSolution\PracticalExamSolution\obj\Debug\PracticalExamSolution.csproj.CoreCompileInputs.cache
+D:\Uni\DBMSs- Database Management Systems\Practical Exam\Solution\PracticalExamSolution\PracticalExamSolution\obj\Debug\PracticalExamSolution.exe
+D:\Uni\DBMSs- Database Management Systems\Practical Exam\Solution\PracticalExamSolution\PracticalExamSolution\obj\Debug\PracticalExamSolution.pdb
